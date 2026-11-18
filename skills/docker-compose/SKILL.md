@@ -10,7 +10,7 @@ metadata:
 ## BMS Stack Layout
 
 ```
-~/Projects/BMS/docker/docker-compose.yml
+docker-compose.yml
 ├── Apache (WordPress sites on port 8083)
 ├── MariaDB (database, internal only)
 └── Adminer (DB admin on port 8082)
@@ -20,7 +20,7 @@ metadata:
 
 ### Stack Management
 ```bash
-cd ~/Projects/BMS/docker
+cd .
 
 # Start
 docker compose up -d

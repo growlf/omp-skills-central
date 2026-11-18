@@ -28,8 +28,8 @@ Be specific about what you're missing — not just "a tool" but "browser automat
 
 Search sources in this order:
 
-1. **Agent library** — `~/Projects/AI/agents/`
-   - Run: `AGENTS_HOME=~/Projects/AI python3 ~/Projects/AI/agents/selector/scripts/recommend.py "<what you need>"`
+1. **Agent library** — `./scripts/` (bundled)
+   - Run: `AGENTS_HOME=. python3 scripts/recommend.py "<what you need>"`
    - Returns matching agents from the registry
    - These are specialized sub-agents you can delegate to
 
@@ -84,7 +84,7 @@ Would you like me to:
 If the user approves:
 
 **For agent library agents:**
-- Wire the agent into the project: `bash ~/Projects/AI/agents/scripts/wire-rules.sh <project-path>`
+- Wire the agent into the project: `bash scripts/wire-rules.sh <project-path>`
 - The agent's SKILL.md will now be loaded
 
 **For Pi packages:**
