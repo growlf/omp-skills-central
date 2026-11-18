@@ -1,0 +1,20 @@
+{
+  "name": "omp-skills-central",
+  "description": "Central skills repo for the team — team skills + curated community skills",
+  "owner": { "name": "Your Org" },
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "bitwarden",
+      "source": "./plugins/bitwarden",
+      "description": "Bitwarden vault management via MCP tools",
+      "version": "0.1.0"
+    },
+    {
+      "name": "credential-mgmt",
+      "source": "./plugins/credential-mgmt",
+      "description": "Vault session management and credential lifecycle",
+      "version": "0.1.0"
+    }
+  ]
+}
