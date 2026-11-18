@@ -1,27 +1,25 @@
 # OMP Skills Central
 
-Central skills repo for the team. Includes:
-- **Team skills** (from ~/Projects/AI)
-- **LFNW project skills** (from ~/Projects/lfnw)
-- **Opskit skills** (from ~/Projects/opskit)
-- **Plugins with code** (plugins/)
-- **Community skill sources** (curated/)
+Central skills repo for the team. Consolidated from:
+- ~/Projects/AI (main AI project)
+- ~/Projects/lfnw (LFNW event site project)
+- ~/Projects/opskit (Opskit tooling)
 
 ## Quick Install
 
 ```bash
-# Run once per machine
 git clone git@github.com:growlf/omp-skills-central ~/.omp/central-skills
 cd ~/.omp/central-skills
 ./setup.sh
 ```
 
-## Skills
+## Skills (97 total)
 
 ### Security & Secrets
 | Skill | Source | Description |
 |-------|--------|-------------|
 | bitwarden | AI | Bitwarden vault management via MCP tools |
+| bwunlock | AI | Bitwarden unlock and session management |
 | credential-mgmt | AI | Vault session management and credential lifecycle |
 | security | AI | Security auditing and vulnerability scanning |
 
@@ -30,8 +28,12 @@ cd ~/.omp/central-skills
 |-------|--------|-------------|
 | ai-framework | AI | Azure AI Foundry platform integration |
 | development | AI+LFNW | General code helpers, cleanup, triage, code review |
-| django | LFNW | Django web development and deployment |
-| openspec-* | AI | OpenSpec workflow (8 skills) |
+| django | AI+LFNW | Django web development and deployment |
+| django-dev-env | AI | Django development environment setup |
+| django-expert | AI | Django expert-level guidance |
+| djangocms-agent | AI | DjangoCMS agent workflow |
+| djangocms-reviewer | AI | DjangoCMS code review |
+| openspec-* | AI | OpenSpec workflow (8 skills: apply, archive, bulk-archive, continue, explore, ff, new, onboard, sync-specs, verify) |
 | cleanup | AI | Branch and worktree cleanup |
 | grind | AI | Code grinding and refactoring |
 | triage | AI | Issue triage and prioritization |
@@ -64,7 +66,7 @@ cd ~/.omp/central-skills
 ### Documentation
 | Skill | Source | Description |
 |-------|--------|-------------|
-| documentation | AI | Documentation workflows, KB management |
+| documentation | AI+LFNW | Documentation workflows, KB management |
 | documents | AI | Document file format creation/editing |
 | doc-coauthoring | AI | Collaborative document creation |
 | knowledge-base | AI | Knowledge base management |
@@ -104,6 +106,7 @@ cd ~/.omp/central-skills
 | Skill | Source | Description |
 |-------|--------|-------------|
 | researcher | AI | Agent/skill research and evaluation |
+| research | AI | General research workflows |
 | search | AI | Web search and information retrieval |
 | find-skills | AI | Skill discovery and management |
 
@@ -119,6 +122,7 @@ cd ~/.omp/central-skills
 | web | AI+LFNW | Web application development |
 | media | AI | Media processing and generation |
 | web-preview | AI | Web preview and testing |
+| websearch | AI | Web search integration |
 | visual-regression | LFNW | Visual regression testing |
 | lfnw-linkedin-photo | LFNW | LinkedIn photo management for LFNW |
 | venue | LFNW | Event venue management |
@@ -138,10 +142,12 @@ cd ~/.omp/central-skills
 | selector | AI | Agent recommendation for projects |
 | shared-browser | AI | Collaborative browser control |
 
-### AI Framework
+### Utilities
 | Skill | Source | Description |
 |-------|--------|-------------|
-| ai-framework | AI | Azure AI Foundry platform |
+| skills | AI | Skills reference and management |
+| tools | AI | General utility tools |
+| luanti | AI | Luanti (Minecraft-like) game server management |
 
 ## Adding Skills
 
@@ -149,10 +155,10 @@ cd ~/.omp/central-skills
 2. Commit and push
 3. Team members run `./setup.sh`
 
-## Adding Community Skills
-
-Copy from the internet → add to `skills/` → commit. Document sources in `curated/`.
-
 ## Merge Notes
 
 Skills that exist in multiple sources are merged to combine the best content from each source. See `merges/` for comparison reports.
+
+## Inventory
+
+See `inventory.md` for the full skill inventory with sources and status.
