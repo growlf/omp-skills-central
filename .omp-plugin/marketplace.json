@@ -15,6 +15,90 @@
       "source": "./plugins/credential-mgmt",
       "description": "Vault session management and credential lifecycle",
       "version": "0.1.0"
+    },
+    {
+      "name": "ai-framework",
+      "source": "./plugins/ai-framework",
+      "description": "AI framework integration and scaffolding",
+      "version": "0.1.0"
+    },
+    {
+      "name": "data",
+      "source": "./plugins/data",
+      "description": "Data processing and analysis workflows",
+      "version": "0.1.0"
+    },
+    {
+      "name": "development",
+      "source": "./plugins/development",
+      "description": "Development workflow and coding patterns",
+      "version": "0.1.0"
+    },
+    {
+      "name": "devops",
+      "source": "./plugins/devops",
+      "description": "DevOps automation and infrastructure",
+      "version": "0.1.0"
+    },
+    {
+      "name": "documentation",
+      "source": "./plugins/documentation",
+      "description": "Documentation workflows, KB management",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github",
+      "source": "./plugins/github",
+      "description": "GitHub workflow: CLI, PRs, issue tracking",
+      "version": "0.1.0"
+    },
+    {
+      "name": "infra",
+      "source": "./plugins/infra",
+      "description": "Infrastructure management and deployment",
+      "version": "0.1.0"
+    },
+    {
+      "name": "manager",
+      "source": "./plugins/manager",
+      "description": "Project management and coordination",
+      "version": "0.1.0"
+    },
+    {
+      "name": "ops",
+      "source": "./plugins/ops",
+      "description": "Operations and monitoring",
+      "version": "0.1.0"
+    },
+    {
+      "name": "project-lifecycle",
+      "source": "./plugins/project-lifecycle",
+      "description": "Project lifecycle management",
+      "version": "0.1.0"
+    },
+    {
+      "name": "researcher",
+      "source": "./plugins/researcher",
+      "description": "Research and investigation workflows",
+      "version": "0.1.0"
+    },
+    {
+      "name": "search",
+      "source": "./plugins/search",
+      "description": "Search and discovery patterns",
+      "version": "0.1.0"
+    },
+    {
+      "name": "task-mgmt",
+      "source": "./plugins/task-mgmt",
+      "description": "Task management and delegation",
+      "version": "0.1.0"
+    },
+    {
+      "name": "web",
+      "source": "./plugins/web",
+      "description": "Web development and deployment",
+      "version": "0.1.0"
     }
   ]
 }
