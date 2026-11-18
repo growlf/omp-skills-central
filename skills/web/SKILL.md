@@ -36,7 +36,7 @@ WordPress site ops — WP-CLI, MariaDB, Docker Compose stack management.
 
 ### shared-browser
 Open a visible browser on the operator's desktop for admin consoles requiring human login; the agent reads read-only through a loopback debugging port.
-- `skills/shared-browser/SKILL.md`
+- `shared-browser/SKILL.md`
 
 ### web-preview
 Take screenshots and analyze rendered web pages for visual inspection. Use when the operator asks to 'see the page', 'look at the results', or 'visually check'.
